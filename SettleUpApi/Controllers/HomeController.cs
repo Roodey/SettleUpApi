@@ -20,11 +20,24 @@ namespace SettleUpApi.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public JsonResult user()
         {
-            ViewBag.Message = "Your contact page.";
+            JsonResult user = new JsonResult();
+            user.Data = "{" +
+                "name:tim" +
+                "email:test@test.com"+
+                "}";
 
-            return View();
+            return Json(user.Data,JsonRequestBehavior.AllowGet);
+        }
+
+        public string[] Get()
+        {
+            return new string[]
+            {
+                "Hello",
+                "World"
+            };
         }
     }
 }
