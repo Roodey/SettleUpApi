@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettleUpApi", "SettleUpApi\SettleUpApi.csproj", "{C8716178-86BB-4D97-857A-46A3D7C33FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettleUpApi.Tests", "SettleUpApi.Tests\SettleUpApi.Tests.csproj", "{43F04FC3-3B60-4CA1-B691-4DBC3BEEFAD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8716178-86BB-4D97-857A-46A3D7C33FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8716178-86BB-4D97-857A-46A3D7C33FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8716178-86BB-4D97-857A-46A3D7C33FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8716178-86BB-4D97-857A-46A3D7C33FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F04FC3-3B60-4CA1-B691-4DBC3BEEFAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F04FC3-3B60-4CA1-B691-4DBC3BEEFAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F04FC3-3B60-4CA1-B691-4DBC3BEEFAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F04FC3-3B60-4CA1-B691-4DBC3BEEFAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
